@@ -14,6 +14,22 @@ function buscaDestruye(arreglo, num) {
   //
   // Tu código aca:
   
+  var nuevoArreglo = arreglo
+
+  for (i=0; i < nuevoArreglo.length;i++){
+
+    if (nuevoArreglo[i]=== num){
+
+      nuevoArreglo.splice([i],1)
+
+      
+    }else { 
+      console.log(" todo ok")
+
+    }
+  }
+
+  return nuevoArreglo;
 };
 
 // No modifiques nada debajo de esta linea //
